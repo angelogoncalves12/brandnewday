@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man: Brand New Day</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="hero">
+
+        <!-- Fundo Vermelho com Textura de Teia -->
+        <div class="hero-bg">
+            <img src="assets/extracted_Mask group_0.png" alt="" class="bg-texture" aria-hidden="true">
+            <div class="bg-gradient" aria-hidden="true"></div>
+        </div>
+
+        <!-- Frame Principal com Proporção Travada do Figma -->
+        <div class="hero-frame">
+
+            <!-- NOTCH TOPO ESQUERDO: Spider + Marvel -->
+            <div class="brand-area">
+                <img src="assets/logo-spider 1.svg" alt="Spider Logo" class="spider-logo">
+                <img src="assets/Vector.svg" alt="MARVEL" class="marvel-logo">
+            </div>
+
+            <!-- NOTCH TOPO DIREITO: Trailer + Ingressos -->
+            <nav class="nav-area">
+                <a href="https://www.youtube.com/watch?v=8TZMtslA3UY" target="_blank" class="nav-link trailer-link">TRAILER</a>
+                <button class="tickets-button" type="button">COMPRAR INGRESSOS</button>
+            </nav>
+
+            <!-- NOTCH BASE ESQUERDA: Data de Lançamento -->
+            <div class="release-area">
+                <img src="assets/Group 4.svg" alt="Lançamento 30/07" class="release-img">
+            </div>
+
+            <!-- CARD BRANCO CENTRAL (MASCARADO) -->
+            <div class="hero-card">
+
+                <!-- Logo do Filme (Recorte focado na arte do Frame 8.svg) -->
+                <div class="movie-logo-box">
+                    <img src="assets/Frame 8.svg" alt="Spider-Man: Brand New Day" class="movie-logo">
+                </div>
+
+                <!-- Tom Holland Centralizado e com Enquadramento Correto -->
+                <div class="character-wrapper">
+                    <img src="assets/tom_holland_transparent.png" alt="Peter Parker" class="character-img">
+                </div>
+
+                <!-- Sinopse Formatada (Lado Direito) -->
+                <div class="synopsis-box">
+                    <p class="synopsis-text">
+                        It's a <strong>BRAND NEW DAY</strong> for Peter Parker.<br><br>
+                        Fighting crime full-time as Spider-Man in a world that doesn't remember him.
+                    </p>
+                </div>
+
+                <!-- Selo Circular de Rolagem (Base Direita) -->
+                <div class="scroll-area">
+                    <button class="scroll-button" type="button" aria-label="Rolar para a próxima seção">
+                        <img src="assets/Frame 11.svg" alt="Role a página">
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <section id="trailer" class="next-section">
+        <h2>TRAILER</h2>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
