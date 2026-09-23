@@ -1,5 +1,5 @@
 # 🕷️ Spider-Man: Brand New Day — Hero Landing Page
-
+## EM DESENVOLVIMENTO 
 Projeto de reprodução em alta fidelidade de uma **Hero Section** interativa desenvolvida durante o curso de **Figma com IA da DevHub Educação**. O objetivo principal foi alinhar design visual avançado no Figma com desenvolvimento front-end moderno assistido por Inteligência Artificial.
 
 ---
